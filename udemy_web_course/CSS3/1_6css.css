@@ -1,0 +1,28 @@
+body {
+	background: url(123.jpg);
+}
+ul {
+	color: white;
+}
+a {
+	color: white;
+}
+#h2last {
+	color: Black;
+	font-size: 35px;
+}
+h1{
+	font-size: 50px;
+}
+#a1 {
+	font-size: 35px;
+}
+li {
+	font-size: 25px;
+}
+h2 {
+	font-size: 30px;
+}
+#my-div * {
+	border: 2px solid blue;
+}

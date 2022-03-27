@@ -1,0 +1,26 @@
+.div{
+	background-color: pink;
+	color: black;
+	border: 2px black dashed;
+	height: 120px;
+	width: 200px;
+	position: absolute; /* moves the paragragraph down,beacouse we wrote top */	
+	top: 50px;	
+	left: 100px;
+	z-index: 2;
+	opacity: 0.5;
+}
+#divtwo {
+	background-color: red;
+	color: violet;
+	width: 200px;
+	height: 100px;
+	border: 2px black dashed;
+	position: relative;
+	z-index: 1;	
+}
+
+}
+div {
+	background-color: pink;
+}

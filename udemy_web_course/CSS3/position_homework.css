@@ -1,0 +1,15 @@
+#first-div {
+	background: seagreen;
+	position: absolute;
+	width: 250px;
+	padding: 50px;
+}
+
+
+#second-div {
+	background: red;
+	position: relative;
+	padding: 50px;
+	width: 250px;
+	top: 0px;
+}

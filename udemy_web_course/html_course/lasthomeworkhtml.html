@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>lasthomework</title>
+	<script type="text/javascript">document.createElement("myContainer");</script>
+</head>
+<body>
+
+		<article>
+			Hi,this is the last homework for a html course
+		</article>
+
+		<header>
+			Hello again,there is "header" tags
+		</header>
+
+		<video width="500" height="300" controls>
+			<source src="video.mp4" type="video/mp4">
+		</video>
+
+		<audio controls>
+			<source src="audio.mp3" type="audio/mp3">
+		</audio>
+
+		<p><myContainer>
+			hello,this is my "container"
+		</myContainer></p>
+
+		<form id="my form">
+
+			<p>Placeholder:<input type="text" placeholder="Input some text"></p>
+			<p>Autofocus:<input type="text" autofocus></p>
+			<p>Required<input type="text" required></p>
+			<p>Email:<input type="email"></p>
+			<p>Pattern:<input type="text" pattern="[0-9]"></p>
+
+			<input type="range" min="1" max="1000" step="100">
+
+			<datalist id="colors">
+				<option>Red</option>
+				<option>Green</option>
+				<option>Yellow</option>
+				<option>Black</option>
+			</datalist>
+
+			<p>Autocomplete<input type="text" list="colors"></p>
+
+			<p><input type="submit" value="Submit"></p>
+
+		</form>
+
+		<figure>
+			<img id="Cat" src="cat.jpg" alt="cat image" width="300" height="300"
+			data-imageDescription="Cat with a hat">
+		
+			<figcaption>
+			<p>Web code Cat</p>
+			</figcaption>
+		</figure>
+
+		<script type="text/javascript">
+			alert(document.getElementById("Cat")getAttribute("data-imageDescription"));
+		</script>
+
+		<ul contenteditable="true">
+			<li>cat</li>
+			<li>dog</li>
+			<li>parrot</li>
+			<li>cow</li>
+		</ul>		
+
+		<footer>
+			Hello again,there is "footer" tags
+		</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

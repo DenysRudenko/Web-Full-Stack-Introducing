@@ -1,0 +1,88 @@
+body {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#gallery-header {
+	text-transform: uppercase;
+	margin-left: 1.25%;
+	border-bottom: 2px solid #293e75;
+	width: 97.5%;
+}
+
+#date {
+	text-transform: uppercase;
+	margin-left: 1.25%;
+	color: #293e75;
+	letter-spacing: 0.2rem;
+}
+
+.image {
+	height: 250px;
+	width: 22.5%;
+	float: left;
+	margin: 1.25%;
+	background-size: contain;
+	background-position: center;
+}
+
+.image1 {
+	background-image: url(ukraine.jpg);
+}
+
+.image2 {
+	background-image: url(ukraine1.jpg);
+}
+
+.image3 {
+	background-image: url(ukraine2.jpg);
+}
+
+.image4 {
+	background-image: url(ukraine3.jpg);
+}
+
+.image5 {
+	background-image: url(ukraine4.jpg);
+}
+
+.image6 {
+	background-image: url(ukraine5.jpg);
+}
+
+.image7 {
+	background-image: url(ukraine6.jpg);
+}
+.image8 {
+	background-image: url(ukraine7.jpeg);
+}
+
+h2 {
+	margin-left: 1.25%;
+}
+
+#first_p {
+	margin-left: 1.25%;
+	border-left: 2px solid #293e75;
+	border-width: 5px;
+	padding-left: 5px;
+	width: 97.5%;
+}
+
+p {
+	margin-left: 1.25%;
+	width: 97.5%;
+}
+
+hr {
+	margin-left: 1.25%;
+	width: 97.5%;
+	margin-bottom: 50px;
+	color: #293e75;
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc
+}
+
+

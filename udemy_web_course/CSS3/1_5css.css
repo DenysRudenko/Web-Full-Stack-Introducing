@@ -1,0 +1,22 @@
+.blue-with-border{
+	color: white;
+	border: dashed;
+	background: blue;
+}
+
+#second-paragraph{
+	color: white;
+	background: red;
+	/* margin: 50px; */ /* поля */
+	/*margin-left: 30px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 150px;*/
+	/*Margin:  50px 100px 150px 30px;*/
+	margin: 300px 100px;
+	width: 100px;
+	margin: 300px auto;
+}
+body {
+	width: 50%;
+}
