@@ -1,8 +1,6 @@
-function complexHello(text) {
-    console.log(Text);
+function complexHello(helloText, name, age) {
+    console.log(helloText + "My name is " + name + ". I`m" + age + " years old.");
 }
-
-complexHello("Hello, my name is Denys! I am 26 years old! \nSandly to be truth!");
 
 function square(number) {
     console.log(number * number);
@@ -14,3 +12,7 @@ function rectangularArea(width, height) {
 }
 
 rectangularArea(2, 3);
+
+complexHello("Hey!", "John", 30);
+complexHello("Hi!", "Joe", 20);
+complexHello("Hello!", "Peter", 10);
