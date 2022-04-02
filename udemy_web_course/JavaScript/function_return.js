@@ -15,3 +15,21 @@ function isSquareBig(side) {
 }
 
 console.log(isSquareBig(2));
+
+function twoReturns(x) {
+
+    x = x - 8;
+
+    console.log(x);
+
+    return x;
+
+    x = x + 8;
+
+    console.log(x);
+
+    return x;   
+
+}
+
+twoReturns(10);
