@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Examples</title>
+    <script src="/home/denys/Sublime files/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <img src="/home/denys/Sublime files/Web_Udemy/udemy_web_course/jQuery/Images/kiev.jpg" alt="Kiev" width="10%">
+    <p><input type="text" placeholder="Some Input"></p>
+    <h2>Rainbow Colors</h2>
+    <ul>
+        <li>Red</li>
+        <li>Orange</li>
+        <li>Yellow</li>
+        <li>Green</li>
+        <li id="blue">Blue</li>
+        <li>Indigo</li>
+        <li>Violet</li>
+    </ul>
+
+    <ol>
+        <li class="one">One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+
+    <select>
+        <option>One</option>
+        <option>Two</option>
+        <option>Three</option>
+    </select>
+
+    <br>
+    <button>click</button>
+    
+
+    <script type="text/javascript">
+        if (jQuery) {
+            alert('jQuery is added');
+        } else {
+            alert('jQuery is not added')
+        }
+
+        /*
+        $('input').keypress(function() {
+            alert('You have pressed the key!');
+        })
+        */
+
+        $('li').on('click', function(){
+            $('this').css('background', 'yellow');
+        })
+
+        $('input').on('keypress', function(){
+            alert('A key is pressed');
+        })
+
+        $('li').on('mouseenter', function(){
+            $(this).css('color', 'red');
+        })
+
+        $('button').on('click', function(){
+            $('h2').fadeToogle(1000, function(){
+                alert('Fading completed!') ;
+        });
+        })
+
+        /*$('#fadeIn').on('click', function(){
+            $('h2').fadeIn(3000, function(){
+                alert('Fading completed!');
+        });
+        })*/
+
+
+    </script>
+
+</body>
+
+</html>
