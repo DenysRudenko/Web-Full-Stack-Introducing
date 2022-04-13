@@ -57,3 +57,24 @@ input:focus {
     border: 2px solid #2f4f4f;
     outline: none;
 }
+
+li span {
+     float: left;
+     background: #d9e021;
+     height: 50px;
+     width: 0;
+     text-align: center;
+     color: white;
+     transition: 0.3s;
+     
+}
+
+li:hover span {
+    width: 50px;
+    opacity: 1;
+}
+
+h2 span {
+    float: right;
+
+}

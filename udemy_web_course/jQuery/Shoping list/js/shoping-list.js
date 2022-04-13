@@ -17,4 +17,7 @@ $('input').keypress(function (event) {
     }
 })
 
+$('h2 span').click(function () {
+    $('input').fadeToggle();
+})
 
