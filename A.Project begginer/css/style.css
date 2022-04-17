@@ -94,7 +94,8 @@ body {
     align-items: center;
 }
 .header_logo {
-
+    position: relative;
+    z-index: 5;
 }
 .header_menu {
     flex: 1 1 auto;
@@ -127,7 +128,13 @@ body {
     letter-spacing: 1px;
 }
 
+.menu_link:hover {
+    text-decoration: underline;
+}
+
 .header_button {
+    position: relative;
+    z-index: 5;
     flex: 0 0 252px;
     display: flex;
     justify-content: flex-end;
@@ -150,11 +157,25 @@ body {
     .menu_body {
         position: fixed;
         top: 0;
-        left: 0;
+        left: -100%;
         width: 100%;
         height: 100%;
-        background-color: #EC5863;
-        padding: 80px 15px 30px 15px;
+        overflow: auto;
+        background-color: #fff;
+        padding: 90px 15px 30px 15px;
+        transition: left 0.3s ease 0s;
+    }
+    .header:target .menu_body {
+        left: 0;
+    }
+    .header:target .menu_body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 80px;
+        width: 100%;
+        background-color: #fff;
     }
     .menu_list {
         flex-direction: column;
@@ -164,8 +185,11 @@ body {
     .menu_item {
         margin: 0px 0px 25px 0px;
     }
+    .menu_item:last-child {
+        margin-bottom: 0;
+    }
     .menu_link {
-        color: white;
+        color: black;
         font-size: 20px;
     }
 
@@ -208,6 +232,7 @@ body {
 }
 
 /* ------------------------------- */
+.close-icon-menu,
 .icon-menu {
     display: none;
 }
@@ -232,4 +257,91 @@ body {
         background-color: black;
         height: 2px;
     }
+
+    .close-icon-menu {
+        flex: 0 0 30px;
+        height: 30px;
+        position: relative;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .close-icon-menu::before,
+    .close-icon-menu::after {
+        content: "";
+        background-color: #000;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+    }
+    .close-icon-menu::before {
+        transform: rotate(45deg);
+    }
+    .close-icon-menu::after {
+        transform: rotate(-45deg);
+    }
+    .header:target .icon-menu {
+        display: none;
+    }
+    .header:target .close-icon-menu {
+        display: flex;
+    }
+}
+
+/* ================================================================================= */
+
+.get-started {
+
+}
+.get-started_container {
+
+}
+.get-started_content {
+
+}
+.get-started_block-text {
+
+}
+.block-text {
+
+}
+.block-text_title {
+
+}
+.block-text_title_blue {
+
+}
+.block-text_text {
+
+}
+.block-text_button {
+
+}
+.button {
+
+}
+.get-started_video {
+
+}
+.get-started_video {
+
+}
+.video-get-started {
+
+}
+.video-get-started_icon {
+
+}
+.video-get-started_body {
+
+}
+.video-get-started_title {
+
+}
+.video-get-started_text {
+
+}
+.get-started_image {
+    
 }
