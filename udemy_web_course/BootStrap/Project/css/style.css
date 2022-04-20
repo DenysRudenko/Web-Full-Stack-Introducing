@@ -49,3 +49,20 @@
 .card {
     margin: 10px;
 }
+.row {
+    margin-top: 50px;
+}
+footer {
+    background-color: #e76032;
+    color: white;
+    padding: 3%;
+    margin-top: 50px;
+}
+.fa-brands {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+.fa-brands:hover {
+    color: black;
+}
